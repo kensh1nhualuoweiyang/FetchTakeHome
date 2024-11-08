@@ -1,5 +1,4 @@
 const express = require("express")
-const process = require("process");
 const receiptController = require("./controllers/Receipts")
 const app = express()
 app.use(express.json())
